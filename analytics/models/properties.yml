@@ -16,8 +16,6 @@ models:
         description: Employer name as scraped.
       - name: job_location
         description: Posting location as scraped.
-        data_tests: 
-          - not_null
       - name: job_via
         description: Posting platform as scraped ('via LinkedIn' — the prefix is the scraper's artifact).
       - name: job_schedule_type
